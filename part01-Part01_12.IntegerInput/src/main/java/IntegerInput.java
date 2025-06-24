@@ -8,7 +8,7 @@ public class IntegerInput {
 
         System.out.println("Give a number:");
         int number = Integer.valueOf(scanner.nextLine());
-        System.out.printf("You gave the number %d", number);
+        System.out.println("You gave the number " + number);
 
     }
 }
